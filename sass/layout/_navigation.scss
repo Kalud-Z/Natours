@@ -73,11 +73,20 @@
         left: 50%;
         transform: translate(-50% , -50%);
         text-align: center;
+
+        @media (max-width:540px) {
+            transform: translate(-50% , -41%);
+        }
+        
     }
 
     &__item {   //li
         list-style: none;
         margin: 1rem;
+    
+        @media (max-width:540px) {
+            width:33rem;
+        }
     }
 
 
